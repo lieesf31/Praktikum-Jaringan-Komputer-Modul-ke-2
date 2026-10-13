@@ -1,0 +1,109 @@
+Frame 30095: Packet, 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface \Device\NPF_{8664E212-14F1-48F1-AAAF-736D6BCDC1AC}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{8664E212-14F1-48F1-AAAF-736D6BCDC1AC})
+        Interface name: \Device\NPF_{8664E212-14F1-48F1-AAAF-736D6BCDC1AC}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 16:14:19.039517000 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 09:14:19.039517000 UTC
+    Epoch Arrival Time: 1791882859.039517000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 4.732800 milliseconds]
+    [Time since reference or first frame: 2 minutes, 57.021746800 seconds]
+    Frame Number: 30095
+    Frame Length: 132 bytes (1056 bits)
+    Capture Length: 132 bytes (1056 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: Intel_c9:67:10 (90:10:57:c9:67:10), Dst: VMware_b5:55:03 (00:50:56:b5:55:03)
+    Destination: VMware_b5:55:03 (00:50:56:b5:55:03)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Intel_c9:67:10 (90:10:57:c9:67:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 1218]
+Internet Protocol Version 4, Src: 10.252.134.21, Dst: 202.9.85.176
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 118
+    Identification: 0xb756 (46934)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.134.21
+    Destination Address: 202.9.85.176
+    [Stream index: 831]
+Transmission Control Protocol, Src Port: 62803, Dst Port: 80, Seq: 1, Ack: 1, Len: 78
+    Source Port: 62803
+    Destination Port: 80
+    [Stream index: 26]
+    [Stream Packet Number: 7]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 78]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1986469148
+    [Next Sequence Number: 79    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 611790145
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 255
+    [Calculated window size: 65280]
+    [Window size scaling factor: 256]
+    Checksum: 0xb133 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 4.718117600 seconds]
+        [Time since previous frame in this TCP stream: 10.975400 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 1.692403900 seconds]
+        [Bytes in flight: 78]
+        [Bytes sent since last PSH flag: 78]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (78 bytes)
+Hypertext Transfer Protocol
+    GET / HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /
+        Request Version: HTTP/1.1
+    Host: www.pens.ac.id\r\n
+    User-Agent: curl/8.21.0\r\n
+    Accept: */*\r\n
+    \r\n
+    [Response in frame: 30099]
+    [Full request URI: http://www.pens.ac.id/]
