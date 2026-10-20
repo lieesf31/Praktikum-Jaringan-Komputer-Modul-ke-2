@@ -1,0 +1,63 @@
+Frame 13193: Packet, 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{8664E212-14F1-48F1-AAAF-736D6BCDC1AC}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{8664E212-14F1-48F1-AAAF-736D6BCDC1AC})
+        Interface name: \Device\NPF_{8664E212-14F1-48F1-AAAF-736D6BCDC1AC}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 14:59:00.779088900 SE Asia Standard Time
+    UTC Arrival Time: Oct 20, 2026 07:59:00.779088900 UTC
+    Epoch Arrival Time: 1792483140.779088900
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 17.113500 milliseconds]
+    [Time since reference or first frame: 23.196126100 seconds]
+    Frame Number: 13193
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Intel_c9:67:10 (90:10:57:c9:67:10), Dst: VMware_b5:55:03 (00:50:56:b5:55:03)
+    Destination: VMware_b5:55:03 (00:50:56:b5:55:03)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Intel_c9:67:10 (90:10:57:c9:67:10)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 917]
+Internet Protocol Version 4, Src: 10.252.129.127, Dst: 10.252.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0x3abf (15039)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: ICMP (1)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.129.127
+    Destination Address: 10.252.1.1
+    [Stream index: 602]
+Internet Control Message Protocol
+    Type: Echo (ping) request (8)
+    Code: 0
+    Checksum: 0x4d36 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence Number (BE): 37 (0x0025)
+    Sequence Number (LE): 9472 (0x2500)
+    [Response frame: 13280]
+    Data (32 bytes)
+        Data: 6162636465666768696a6b6c6d6e6f7071727374757677616263646566676869
+        [Length: 32]
